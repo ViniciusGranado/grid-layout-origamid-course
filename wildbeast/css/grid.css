@@ -1,0 +1,30 @@
+/* GRID STRUCTURE */
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header  header  header"
+    "sidenav content ads"
+    "footer  footer  footer";
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidenav {
+  grid-area: sidenav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+.footer {
+  grid-area: footer;
+}

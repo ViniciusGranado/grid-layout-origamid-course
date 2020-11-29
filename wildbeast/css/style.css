@@ -1,0 +1,14 @@
+/* FONT IMPORT */
+/* font-family: 'Vollkorn', Georgia, serif; */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* RESET */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
