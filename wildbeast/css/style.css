@@ -6,9 +6,51 @@
 a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+/* STYLE */
+body {
+  font-family: 'Vollkorn', Georgia, serif;
+}
+
+/* HEADER */
+.header {
+  align-items: center;
+  background: linear-gradient(135deg, #84E, #B07DFB);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 30px;
+}
+
+.header .logo {
+  max-width: 200px;
+}
+
+.header-nav {
+  justify-self: end;
+}
+.header-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-nav ul li:not(:first-child) {
+  margin-left: 30px;
+}
+.header-nav a {
+  background-color: rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #FFF;
+  display: block;
+  font-size: 1.125rem;
+  padding: 10px;
+  transition: background-color 0.2s linear;
+}
+.header-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
