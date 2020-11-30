@@ -54,3 +54,23 @@ body {
 .header-nav a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* SIDENAV */
+.sidenav {
+  background-color: #FAFBFC;
+  padding: 30px;
+}
+
+.sidenav li a {
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+  margin: 0 auto 30px auto;
+  max-width: 100px;
+  min-width: 60px;
+  padding: 20px;
+  transition: 0.1s background-color ease-out;
+}
+.sidenav li a:hover {
+  background-color: #B07DFB;
+}
