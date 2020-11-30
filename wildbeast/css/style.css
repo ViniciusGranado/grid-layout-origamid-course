@@ -4,14 +4,15 @@
 
 /* RESET */
 a {
-  text-decoration: none;
   color: inherit;
   display: block;
+  text-decoration: none;
 }
 
 img {
-  max-width: 100%;
+  border-radius: 5px;
   display: block;
+  max-width: 100%;
 }
 
 /* STYLE */
@@ -73,4 +74,15 @@ body {
 }
 .sidenav li a:hover {
   background-color: #B07DFB;
+}
+
+/* CONTENT */
+
+/* ADS */
+.ads {
+  align-content: start;
+  background-color: #FAFBFC;
+  display: grid;
+  gap: 30px;
+  padding: 30px;
 }
