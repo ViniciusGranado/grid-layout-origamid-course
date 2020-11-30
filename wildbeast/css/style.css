@@ -13,6 +13,7 @@ img {
   border-radius: 5px;
   display: block;
   max-width: 100%;
+  width: 100%;
 }
 
 /* STYLE */
@@ -77,6 +78,7 @@ body {
 }
 
 /* CONTENT */
+/* SEE CONTENT.CSS */
 
 /* ADS */
 .ads {
@@ -97,4 +99,8 @@ body {
   line-height: 1.6;
   padding: 30px;
   text-align: center;
+}
+
+.content .info p + p {
+  margin-top: 30px;
 }

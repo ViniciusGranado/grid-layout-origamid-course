@@ -1,0 +1,99 @@
+/* CONTENT */
+.content {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+}
+
+.content p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  letter-spacing: -0.005rem;
+  line-height: 1.6;
+}
+
+.wolf-1 {
+  align-self: end;
+}
+/* TITLE */
+.content .title h1 {
+  color: #B07DFB;
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+.content .title p {
+  color: #B07DFB;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+/* CHAR */
+.char {
+  align-items: flex-start;
+  display: flex;
+}
+
+.char-item {
+  background: linear-gradient(135deg, #84E, #B07DFB);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+  text-align: center;
+  width: 80px;
+}
+.char-item:first-child {
+  margin-right: 30px;
+}
+
+.char-item .number {
+  color: #B07DFB;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 10px auto;
+}
+.char-item .label {
+  background-color: #FFF;
+  border-radius: 0 0 5px 5px;
+  color: #B07DFB;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
+/* HIGHTLIGHT */
+.content .highlight {
+  color: #B07DFB;
+  font-size: 0.875rem;
+  max-width: 15rem;
+}
+
+/* QUOTE, ATTRIBUTES */
+.content .quote, .content .attributes {
+  background: linear-gradient(135deg, #84E, #B07DFB);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+  padding: 30px;
+}
+
+.content .quote p {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 430px;
+  text-align: center;
+}
+
+.content .attributes {
+  align-self: start;
+}
+.content .attributes li {
+  color: #FFF;
+  font-family: Courier, monospace;
+  font-size: 1.125rem;
+  padding: 15px;
+}
+.content .attributes li + li {
+  border-top: 2px solid #B07DFB;
+}

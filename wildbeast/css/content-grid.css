@@ -1,0 +1,17 @@
+/* CONTENT GRID STRUCTURE */
+.content {
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    "title char"
+    "desc desc";
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-wide {
+  grid-column: 1 / -1;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
