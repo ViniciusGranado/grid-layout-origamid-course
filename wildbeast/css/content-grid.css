@@ -2,9 +2,6 @@
 .content {
   display: grid;
   gap: 30px;
-  grid-template-areas:
-    "title char"
-    "desc desc";
   grid-template-columns: 1fr 1fr;
 }
 
@@ -14,4 +11,11 @@
 
 .row-span-2 {
   grid-row: span 2;
+}
+
+/* MEDIA-QUERIES */
+@media only screen and (max-width: 600px) {
+  .content {
+    grid-template-columns: 100%;
+  }
 }

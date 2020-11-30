@@ -1,0 +1,51 @@
+@media only screen and (max-width: 760px) {
+  /* HEADER */
+  .header {
+    grid-template-columns: auto;
+  }
+  .header .logo {
+    margin-bottom: 20px;
+  }
+  .header-nav ul li:not(:first-child) {
+    margin-left: 10px;
+  }
+  .header-nav a {
+    font-size: 1rem;
+  }
+
+  /* SIDENAV */
+  .sidenav {
+    overflow-x: auto;
+    padding: 0 30px;
+    position: relative;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+  }
+  .sidenav::after {
+    animation: seta 0.5s ease-in 0s infinite alternate;
+    content: '→';
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 30px;
+    top: 5px;
+  }
+  @keyframes seta {
+    from {
+      right: 30px;
+    }
+    to {
+      right: 20px;
+    }
+  }
+
+  .sidenav ul {
+    display: flex;
+  }
+
+  .sidenav li {
+    flex: 1 0 60px;
+  }
+  .sidenav li a {
+    margin: 30px 30px 30px 0;
+  }
+}

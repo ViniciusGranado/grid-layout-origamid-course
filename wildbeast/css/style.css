@@ -12,7 +12,6 @@ a {
 img {
   border-radius: 5px;
   display: block;
-  max-width: 100%;
   width: 100%;
 }
 
@@ -34,9 +33,6 @@ body {
   max-width: 200px;
 }
 
-.header-nav {
-  justify-self: end;
-}
 .header-nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -45,7 +41,7 @@ body {
   margin-left: 30px;
 }
 .header-nav a {
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.1);
   border-radius: 5px;
   color: #FFF;
   display: block;
@@ -86,6 +82,7 @@ body {
   background-color: #FAFBFC;
   display: grid;
   gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   padding: 30px;
 }
 
