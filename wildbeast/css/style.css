@@ -86,3 +86,15 @@ body {
   gap: 30px;
   padding: 30px;
 }
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(135deg, #84E, #B07DFB);
+}
+.footer p {
+  color: #FFF;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 30px;
+  text-align: center;
+}
